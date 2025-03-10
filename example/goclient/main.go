@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/gocelery/gocelery"
 	"github.com/gomodule/redigo/redis"
+	"github.com/soulkoden/gocelery"
 )
 
 // Run Celery Worker First!
