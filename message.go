@@ -187,6 +187,7 @@ type ResultMessage struct {
 	Traceback interface{}   `json:"traceback"`
 	Result    interface{}   `json:"result"`
 	Children  []interface{} `json:"children"`
+	DateDone  time.Time     `json:"date_done"`
 }
 
 func (rm *ResultMessage) reset() {
